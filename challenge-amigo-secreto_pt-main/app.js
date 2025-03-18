@@ -8,7 +8,7 @@ function adicionarNome() {
     } else {
         listaDeAmigos.push(nome);
         document.getElementById("nome").value = "";
-        atualizarLista();
+        novaLista();
     }
 }
 
@@ -23,18 +23,18 @@ function adicionarAmigo() {
     } else {
         listaDeAmigos.push(nomeAmigo);
         document.getElementById("amigo").value ="";
-        atualizarLista();
+        novaLista();
     }
  
 }
 
-function atualizarLista() {
-    let listaAtualizada = document.getElementById("listaAmigos");
-    listaAtualizada.innerHTML = "";
+function novaLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
     for (let i = 0; i < listaDeAmigos.length; i++) {
         let itemLista = document.createElement("li");
         itemLista.innerHTML = listaDeAmigos[i];
-        listaAtualizada.appendChild(itemLista);
+        lista.appendChild(itemLista);
     }
 }
 

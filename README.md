@@ -17,4 +17,4 @@ Sugerir melhorias no código.
 
 Adicionar novas funcionalidades.
 
-Ps: o projeto ainda está sendo atualizado a uma chance de tirar a si mesmo quando for sortear os membros.
+Ps: o projeto ainda está sendo atualizado existe a chance de tirar a si mesmo quando for sortear os membros.
